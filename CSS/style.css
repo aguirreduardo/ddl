@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box ;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+.nav-search {
+    background-color:white;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+.nav-logo{
+    height: 10rem;
+    padding-bottom: 2rem;
+}
+#page-title {
+    font-family: 'Major Mono Display', monospace;
+    font-size: 2rem;
+    padding: 2rem;
+}
+.form-control{
+    width: 100%;
+}
+
+.nav-list {
+    background-color:#212F3C ;
+    
+}
+.nav-list li{
+    display: inline-block;
+    padding:5px 10px;
+}
+.nav-ul{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-list a{
+    color:white;
+    padding: 10 px;
+    border-radius: 0.5rem;
+    text-decoration: none;
+}
+main{
+    background-image: linear-gradient(to bottom right, black, white);
+}
+#cards {
+    margin-top: 2rem;
+    padding: 2rem 0;
+    
+}
+.row{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+.col {
+    border: 1px solid pink;
+    width: 25%;
+    margin: 0.5rem;
+    padding: 0;
+    background-color: white;
+}
+.card{
+    border: none;
+    font-size: 0.7rem;
+}
+footer{
+    height: auto;
+    background-color: #212F3C;
+    color: aqua;
+    font-family: 'Space Mono', monospace;
+}
+.seguinos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.5rem;
+   
+}
+.seguinos ul{
+    padding-left: 0.8rem;
+    margin-top: 0;
+    margin-bottom: 0.8rem;
+}
+.seguinos-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.8rem;
+}
+.seguinos-list a{
+    text-decoration:none;
+    margin-left: 1.5rem;
+}
+.contactanos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-bottom: 0.5rem;
+    font-size: 0.8rem;
+}
+.contactanos ul{
+    padding: 0rem;
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+.contactanos-list{
+    list-style-type: none;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.contactanos-list a{
+    text-decoration: none;
+    font-family: 'Space Mono', monospace;
+    color: aqua;
+}
+.contactanos-list li{
+    margin: 0.5rem;
+}
+.social{
+    color: aqua;
+}
+
+@media (min-width: 800px) {
+    .nav-list a{
+        font-size: 1.5rem;
+    }
+    .col{
+        width: 20%;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        font-size: 1.5rem;
+    }
+    .card h6{
+        font-size: 2rem;
+    }
+    .seguinos{
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+    .contactanos{
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+}
