@@ -131,22 +131,29 @@ footer{
 }
 
 @media (min-width: 800px) {
+    #main-Carousel{
+        display: flex;
+        justify-content: center;
+    }
+    #carouselExampleCaptions{
+        max-width: 1000px;
+    }
     .nav-list a{
         font-size: 1.5rem;
     }
     .col{
         width: 20%;
     }
-    footer{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
     .card{
         font-size: 1.5rem;
     }
     .card h6{
         font-size: 2rem;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .seguinos{
         padding: 1rem;
